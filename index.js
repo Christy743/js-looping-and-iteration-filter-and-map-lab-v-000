@@ -20,3 +20,11 @@ function exactMatch(drivers, matches) {
     return match;
   });
 }
+
+function exactMatchToList() {
+  return exactMatch(drivers).filter(function driver) {
+    if (exactMatch === false) {
+      
+    }
+  }
+}
