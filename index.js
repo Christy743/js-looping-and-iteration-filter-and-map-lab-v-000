@@ -21,8 +21,8 @@ function exactMatch(drivers, matches) {
   });
 }
 
-function exactMatchToList() {
-  return exactMatch(drivers).filter(function driver) {
+function exactMatchToList(drivers, matches) {
+  return exactMatch(drivers, matches).map(function driver) {
     if (exactMatch === false) {
       
     }
