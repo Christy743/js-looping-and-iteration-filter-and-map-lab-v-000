@@ -22,9 +22,7 @@ function exactMatch(drivers, matches) {
 }
 
 function exactMatchToList(drivers, matches) {
-  return exactMatch(drivers, matches).map(function driver) {
-https://learn.co/tracks/full-stack-web-development-v3/javascript-basics/looping-and-iteration/filter-and-map-lab#    if (exactMatch === false) {
-      
-    }
-  }
+  return exactMatch(drivers, matches).map(function driver {
+    return driver.name;
+  });
 }
