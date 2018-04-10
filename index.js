@@ -22,7 +22,7 @@ function exactMatch(drivers, matches) {
 }
 
 function exactMatchToList(drivers, matches) {
-  return exactMatch(drivers, matches).map(function driver {
+  return exactMatch(drivers, matches).map(function (driver) {
     return driver.name;
   });
 }
